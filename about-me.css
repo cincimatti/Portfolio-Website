@@ -6,7 +6,7 @@
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
-  background-image: url(images/Code.png);
+  background-image: url(/images/Code.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +104,7 @@
 }
 
 #footer {
-  background-image: url(images/Code.png);
+  background-image: url(/images/Code.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
