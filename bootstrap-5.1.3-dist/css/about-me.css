@@ -6,18 +6,9 @@
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 .navbar {
-  background-image: url(images/Code.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(images/Code.png) no-repeat center center fixed; 
   height: 85px;
 }
-
-@media (max-width: 992px) {
-  .nav-item {
-    text-decoration: none;
-    background-color: gray;
-  }
   
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -109,4 +100,11 @@
   background-size: cover;
   padding-top: 200px;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    text-decoration: none;
+    background-color: gray;
+  }
 }

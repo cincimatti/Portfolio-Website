@@ -12,12 +12,6 @@
   background-size: cover;
   height: 85px;
 }
-
-@media (max-width: 992px) {
-  .nav-item {
-    text-decoration: none;
-    background-color: gray;
-  }
   
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -100,7 +94,7 @@
 }
 
 .bd-placeholder-img {  /* picture */
-  max-width: 80px;
+  max-width: 180px;
 }
 
 #footer {
@@ -110,4 +104,11 @@
   background-size: cover;
   padding-top: 200px;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    text-decoration: none;
+    background-color: gray;
+  }
 }

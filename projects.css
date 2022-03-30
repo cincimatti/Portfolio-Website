@@ -38,12 +38,6 @@
   height: 85px;
 }
 
-@media (max-width: 992px) {
-  .nav-item {
-    text-decoration: none;
-    background-color: gray;
-  }
-
 .border-bottom {
   margin-top: 25px;
   margin-bottom: 50px;
@@ -58,16 +52,22 @@
   padding-bottom: 400px;
 }
 
-.shadow-sm {
-  text-align: left;
+.card-img-top {
+  align-items: center;
+  text-align: center;
 }
 
 #PacMen {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 5px;
-  object-fit:fill;
-  max-width: 190px;
+  max-width: 160px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+
 }
 
 #Eyes {
@@ -110,4 +110,11 @@
   background-size: cover;
   position: absolute;
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    text-decoration: none;
+    background-color: gray;
+  }
 }
