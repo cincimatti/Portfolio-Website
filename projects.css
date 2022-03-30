@@ -58,7 +58,7 @@
 }
 
 #PacMen {
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
   margin-bottom: 5px;
   max-width: 160px;
@@ -72,14 +72,14 @@
 
 #Eyes {
   padding: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   object-fit:fill;
   max-height: 190px;
 }
 
 #Bus {
   padding: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   object-fit:fill;
   max-height: 190px;
 }
