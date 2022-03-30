@@ -39,10 +39,10 @@
 }
 
 @media (max-width: 992px) {
-.nav-item {
-  text-decoration: none;
-  background-color: gray;
-}
+  .nav-item {
+    text-decoration: none;
+    background-color: gray;
+  }
 
 .border-bottom {
   margin-top: 25px;
