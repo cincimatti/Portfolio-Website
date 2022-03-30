@@ -1,0 +1,118 @@
+/*
+ CSS for projects.html
+ */
+
+ /* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+#Software-projects {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+
+#proj-portfolio-text {
+  padding-top: 25px;
+}
+
+.navbar {
+  background-image: url(images/Code.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85px;
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    text-decoration: none;
+    background-color: gray;
+  }
+
+.border-bottom {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#banner {
+  background-color: rgb(235, 235, 235);
+}
+
+#project-row {
+  margin-top: 30px;
+  padding-bottom: 400px;
+}
+
+.shadow-sm {
+  text-align: left;
+}
+
+#PacMen {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  object-fit:scale-down;
+  max-height: 190px;
+}
+
+#Eyes {
+  padding: 0px;
+  margin-bottom: 5px;
+  object-fit:fill;
+  max-height: 190px;
+}
+
+#Bus {
+  padding: 0px;
+  margin-bottom: 5px;
+  object-fit:fill;
+  max-height: 190px;
+}
+
+#card-title {
+  text-align: center;
+  text-shadow: none;
+  padding-top: 15px;
+}
+
+.fw-light {
+  text-shadow: none;
+
+}
+.text-secondary {
+  text-shadow: none;
+}
+  
+.show.active {
+  background-color:rgba(255, 255, 255, .25);
+  text-shadow: none;
+}
+
+
+#footer {
+  background-image: url(images/Code.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
