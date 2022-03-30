@@ -1,0 +1,41 @@
+/*
+CSS for Cover Page
+ */
+
+.btn-secondary,
+.btn-secondary:focus {
+  color: white;
+  text-shadow: black 1px 1px;
+  background-color: rgb(136,223,255);
+  width: 250px;
+  outline: none;
+}
+
+.btn-secondary:hover {
+  color: white;
+  text-shadow: black 1px 1px;
+  background-color: rgb(60, 203, 255);
+  box-shadow: 0 0 15px rgb(60, 203, 255);
+  width: 250px;
+}
+
+.background {
+  max-width: 100%;
+  background: url(images/Code.png) no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#proj-portfolio-text {
+  padding-top: 25px;
+}
+
+#Matt {
+  border: solid 3px white;
+  border-radius: 50%;
+  margin: 10px;
+  
+}
