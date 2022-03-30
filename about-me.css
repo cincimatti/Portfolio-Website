@@ -112,3 +112,10 @@
     background-color: gray;
   }
 }
+
+@media (max-width: 992px) {
+  #video {
+    width: 352;
+    height: 240;
+  }
+}
