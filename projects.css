@@ -66,8 +66,8 @@
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 5px;
-  object-fit:scale-down;
-  max-height: 190px;
+  object-fit:fill;
+  max-width: 190px;
 }
 
 #Eyes {
@@ -103,7 +103,6 @@
   text-shadow: none;
 }
 
-
 #footer {
   background-image: url(images/Code.png);
   background-position: center center;
@@ -112,7 +111,3 @@
   position: absolute;
   width: 100%;
 }
-
-
-
-
